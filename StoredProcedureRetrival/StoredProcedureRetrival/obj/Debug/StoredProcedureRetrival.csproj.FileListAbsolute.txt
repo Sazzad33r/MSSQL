@@ -1,0 +1,9 @@
+c:\users\sazzad\documents\visual studio 2015\Projects\StoredProcedureRetrival\StoredProcedureRetrival\bin\Debug\StoredProcedureRetrival.exe.config
+c:\users\sazzad\documents\visual studio 2015\Projects\StoredProcedureRetrival\StoredProcedureRetrival\bin\Debug\StoredProcedureRetrival.exe
+c:\users\sazzad\documents\visual studio 2015\Projects\StoredProcedureRetrival\StoredProcedureRetrival\bin\Debug\StoredProcedureRetrival.pdb
+c:\users\sazzad\documents\visual studio 2015\Projects\StoredProcedureRetrival\StoredProcedureRetrival\obj\Debug\StoredProcedureRetrival.csprojResolveAssemblyReference.cache
+c:\users\sazzad\documents\visual studio 2015\Projects\StoredProcedureRetrival\StoredProcedureRetrival\obj\Debug\StoredProcedureRetrival.Form1.resources
+c:\users\sazzad\documents\visual studio 2015\Projects\StoredProcedureRetrival\StoredProcedureRetrival\obj\Debug\StoredProcedureRetrival.Properties.Resources.resources
+c:\users\sazzad\documents\visual studio 2015\Projects\StoredProcedureRetrival\StoredProcedureRetrival\obj\Debug\StoredProcedureRetrival.csproj.GenerateResource.Cache
+c:\users\sazzad\documents\visual studio 2015\Projects\StoredProcedureRetrival\StoredProcedureRetrival\obj\Debug\StoredProcedureRetrival.exe
+c:\users\sazzad\documents\visual studio 2015\Projects\StoredProcedureRetrival\StoredProcedureRetrival\obj\Debug\StoredProcedureRetrival.pdb

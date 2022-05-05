@@ -1,0 +1,32 @@
+	    int userId = 102;
+            string name = "";
+            DataTable dt = new DataTable();
+            SqlDataAdapter da = new SqlDataAdapter("exec Retrive", con);
+            da.Fill(dt);
+            dataGridView1.DataSource = dt.DefaultView;
+            SqlCommand cmd = new SqlCommand();
+            cmd.Connection = con;
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.CommandText = "[Test]";
+            cmd.Parameters.AddWithValue("@ID", userId);
+            cmd.Parameters.Add("@Name", SqlDbType.NVarChar, 150);
+            cmd.Parameters["@Name"].Direction = ParameterDirection.Output;
+            con.Open();
+            cmd.ExecuteNonQuery();
+            name = Convert.ToString(cmd.Parameters["@Name"].Value);
+            label1.Text = name;
+
+
+the stored procedure was
+
+create procedure [Test]
+@ID int,
+@Name nvarchar(150) output
+As
+Begin
+set @Name = (select customerName from customer where customerId = @ID);
+End
+
+declare @user nvarchar(150)
+exec [Test] 103,@user output
+print @user
